@@ -6,6 +6,7 @@ body, html {
     justify-content: center;
     align-items: center;
     background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
 }
 
 .heart-container {
@@ -25,6 +26,8 @@ body, html {
     font-size: 20px;
     color: white;
     font-weight: bold;
+    transform: rotate(-45deg); /* Поворачиваем сердечко */
+    margin: 50px auto;
 }
 
 .heart span {
