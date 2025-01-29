@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт для Карины</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="heart-container">
+        <div class="heart">
+            <span>Карина, я тебя люблю</span>
+        </div>
+    </div>
+    
+    <!-- Вставляем музыку, которая будет играть при загрузке страницы -->
+    <audio id="music" autoplay loop>
+        <source src="song.mp3" type="audio/mp3">
+        Ваш браузер не поддерживает аудио.
+    </audio>
+
+    <script>
+        // Автозапуск музыки при загрузке страницы
+        window.onload = function() {
+            document.getElementById("music").play();
+        };
+    </script>
+</body>
+</html>
